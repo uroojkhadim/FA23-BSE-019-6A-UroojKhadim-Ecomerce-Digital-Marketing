@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Story | Heritage & Craft | NOORA LUXE</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <h1>NOORA LUXE</h1>
+                </a>
+            </div>
+            <nav class="nav">
+                <ul class="nav-links">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="shop.html">SHOP ALL</a></li>
+                    <li><a href="atelier.html">THE ATELIER</a></li>
+                    <li><a href="about.html">OUR STORY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="#" class="cart-icon"><i class="fas fa-shopping-bag"></i><span class="cart-count">0</span></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="about-main">
+        <section class="about-hero container">
+            <div class="about-hero-text fade-in">
+                <span>SINCE 2026</span>
+                <h1>Crafting <br>Pure Elegance</h1>
+                <p>NOORA LUXE was founded on a simple yet profound philosophy: that modesty is the ultimate form of
+                    elegance. Based in the heart of Karachi, we bring together traditional craftsmanship and
+                    contemporary silhouettes.</p>
+            </div>
+            <div class="about-hero-img fade-in">
+                <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&q=80&w=1200"
+                    alt="Brand Story">
+            </div>
+        </section>
+
+        <section class="philosophy container">
+            <div class="philosophy-grid">
+                <div class="phil-item fade-in">
+                    <h3>The Fabric</h3>
+                    <p>We source only the finest fabrics—from the softest Korean Nida to pure Italian silk—ensuring
+                        every piece drapes with regal grace.</p>
+                </div>
+                <div class="phil-item fade-in">
+                    <h3>The Craft</h3>
+                    <p>Every abaya is hand-finished in our local atelier. Our tailors treat every stitch as an act of
+                        devotion to quality.</p>
+                </div>
+                <div class="phil-item fade-in">
+                    <h3>The Vision</h3>
+                    <p>To empower the modern woman with modest wear that makes no compromises on luxury or style.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="heritage-img fade-in">
+            <img src="https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&q=80&w=2000"
+                alt="Atelier Heritage">
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h2>NOORA LUXE</h2>
+                <p>Join our journey towards refined modesty.</p>
+            </div>
+            <div class="footer-links">
+                <h4>DISCOVER</h4>
+                <ul>
+                    <li><a href="shop.html">The Collection</a></li>
+                    <li><a href="atelier.html">The Atelier</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 NOORA LUXE. ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+
+    <style>
+        .about-main {
+            padding-top: 150px;
+        }
+
+        .about-hero {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 80px;
+            align-items: center;
+            margin-bottom: var(--spacing-xl);
+        }
+
+        .about-hero-text span {
+            font-size: 0.75rem;
+            letter-spacing: 0.3em;
+            color: var(--accent-gold);
+            display: block;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .about-hero-text h1 {
+            font-size: 4rem;
+            line-height: 1.1;
+            margin-bottom: 30px;
+        }
+
+        .about-hero-text p {
+            font-size: 1.15rem;
+            line-height: 1.8;
+            color: #555;
+            font-style: italic;
+        }
+
+        .about-hero-img img {
+            width: 100%;
+            height: 600px;
+            object-fit: cover;
+            border-radius: 2px;
+        }
+
+        .philosophy {
+            padding: var(--spacing-xl) 0;
+            border-top: 1px solid var(--platinum);
+            margin-bottom: var(--spacing-xl);
+        }
+
+        .philosophy-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 60px;
+            text-align: center;
+        }
+
+        .phil-item h3 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        .phil-item p {
+            color: #666;
+            line-height: 1.7;
+            font-size: 0.95rem;
+        }
+
+        .heritage-img {
+            width: 100%;
+            height: 500px;
+            overflow: hidden;
+        }
+
+        .heritage-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        @media (max-width: 992px) {
+            .about-hero {
+                grid-template-columns: 1fr;
+            }
+
+            .philosophy-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

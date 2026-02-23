@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Atelier | Bespoke Customization | NOORA LUXE</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <h1>NOORA LUXE</h1>
+                </a>
+            </div>
+            <nav class="nav">
+                <ul class="nav-links">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="atelier.html">THE ATELIER</a></li>
+                    <li><a href="about.html">OUR STORY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="#" class="cart-icon">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="atelier-main container">
+        <div class="atelier-split">
+            <div class="atelier-visual fade-in">
+                <img src="https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&q=80&w=1200"
+                    alt="Bespoke Tailoring">
+                <div class="atelier-badge">HAND-FINISHED</div>
+            </div>
+
+            <div class="atelier-controls fade-in">
+                <div class="label-luxe">THE ART OF BESPOKE</div>
+                <h1>The Atelier</h1>
+                <p class="atelier-intro">Craft a piece that reflects your essence. Our master tailors in Karachi will
+                    bring your vision to life using the world's most exquisite fabrics.</p>
+
+                <div class="custom-group">
+                    <h4>Step 1: THE FABRIC</h4>
+                    <div class="custom-options" data-type="fabric">
+                        <button class="opt-btn selected">Korean Crepe</button>
+                        <button class="opt-btn">Premium Nida</button>
+                        <button class="opt-btn">Pure Matte Silk</button>
+                        <button class="opt-btn">Luxe Chiffon</button>
+                    </div>
+                </div>
+
+                <div class="custom-group">
+                    <h4>Step 2: THE SLEEVES</h4>
+                    <div class="custom-options" data-type="sleeve">
+                        <button class="opt-btn selected">Kimono Cut</button>
+                        <button class="opt-btn">Elastic Cuffs</button>
+                        <button class="opt-btn">Bell Sleeves</button>
+                        <button class="opt-btn">Sharp Tailored</button>
+                    </div>
+                </div>
+
+                <div class="custom-group">
+                    <h4>Step 3: THE LENGTH</h4>
+                    <div class="custom-options" data-type="length">
+                        <button class="opt-btn selected">Standard (54")</button>
+                        <button class="opt-btn">Petite (52")</button>
+                        <button class="opt-btn">Tall (56")</button>
+                        <button class="opt-btn">Custom Measure</button>
+                    </div>
+                </div>
+
+                <div class="category-divider">CUSTOM SHOES</div>
+
+                <div class="custom-group">
+                    <h4>Step 4: SHOE STYLE</h4>
+                    <div class="custom-options" data-type="shoe-style">
+                        <button class="opt-btn selected">Formal Heels</button>
+                        <button class="opt-btn">Embroidered Mojaris</button>
+                        <button class="opt-btn">Flat Sandals</button>
+                        <button class="opt-btn">Bridal Heels</button>
+                    </div>
+                </div>
+
+                <div class="custom-group">
+                    <h4>Step 5: SHOE MATERIAL</h4>
+                    <div class="custom-options" data-type="shoe-material">
+                        <button class="opt-btn selected">Satin</button>
+                        <button class="opt-btn">Silk Embroidered</button>
+                        <button class="opt-btn">Leather</button>
+                        <button class="opt-btn">Velvet</button>
+                    </div>
+                </div>
+
+                <div class="category-divider">CUSTOM JEWELRY</div>
+
+                <div class="custom-group">
+                    <h4>Step 6: JEWELRY TYPE</h4>
+                    <div class="custom-options" data-type="jewelry-type">
+                        <button class="opt-btn selected">Necklace</button>
+                        <button class="opt-btn">Earrings</button>
+                        <button class="opt-btn">Bracelet</button>
+                        <button class="opt-btn">Bangles Set</button>
+                    </div>
+                </div>
+
+                <div class="custom-group">
+                    <h4>Step 7: METAL FINISH</h4>
+                    <div class="custom-options" data-type="metal-finish">
+                        <button class="opt-btn selected">Gold Plated</button>
+                        <button class="opt-btn">Silver Finish</button>
+                        <button class="opt-btn">Rose Gold</button>
+                        <button class="opt-btn">Antique Finish</button>
+                    </div>
+                </div>
+
+                <div class="atelier-summary-box">
+                    <p id="summary-text">Selection: <strong>Korean Crepe / Kimono Cut / Standard (54")</strong></p>
+                    <div class="summary-actions">
+                        <button class="btn btn-dark">REQUEST A QUOTE</button>
+                        <button id="reset-atelier" class="btn-text">Reset Selection</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h2>NOORA LUXE</h2>
+                <p>Modern luxury, rooted in tradition.</p>
+            </div>
+            <div class="footer-contact">
+                <h4>ATELIER ENQUIRIES</h4>
+                <p>bespoke@nooraluxe.com</p>
+                <p>+92 313 6576128</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 NOORA LUXE. ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+
+    <style>
+        .atelier-main {
+            padding-top: 150px;
+            min-height: 90vh;
+            background: #fafafa;
+        }
+
+        .atelier-split {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 100px;
+            align-items: start;
+            padding: 40px 0;
+        }
+
+        .atelier-visual {
+            position: relative;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+            transition: var(--transition-luxe);
+        }
+
+        .atelier-visual:hover {
+            box-shadow: 0 30px 80px rgba(0, 0, 0, 0.2);
+        }
+
+        .atelier-visual img {
+            width: 100%;
+            height: 700px;
+            object-fit: cover;
+            transition: var(--transition-luxe);
+        }
+
+        .atelier-visual:hover img {
+            transform: scale(1.03);
+        }
+
+        .atelier-badge {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            background: var(--accent-gold);
+            color: white;
+            padding: 10px 24px;
+            font-size: 0.65rem;
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            border-radius: 4px;
+            text-transform: uppercase;
+        }
+
+        .label-luxe {
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.3em;
+            color: var(--accent-gold);
+            margin-bottom: 20px;
+        }
+
+        .atelier-controls h1 {
+            font-size: 3.5rem;
+            margin-bottom: 30px;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+        }
+
+        .atelier-intro {
+            font-size: 1.1rem;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 50px;
+            line-height: 1.8;
+            font-weight: 300;
+        }
+
+        .custom-group {
+            margin-bottom: 50px;
+        }
+
+        .custom-group h4 {
+            font-size: 0.75rem;
+            font-family: var(--font-sans);
+            font-weight: 700;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #e5e5e5;
+            margin-bottom: 25px;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #1a1a1a;
+        }
+
+        .custom-options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .opt-btn {
+            padding: 13px 28px;
+            border: 2px solid #d0d0d0;
+            background: white;
+            font-size: 0.75rem;
+            cursor: pointer;
+            transition: var(--transition-luxe);
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            border-radius: 4px;
+            text-transform: capitalize;
+        }
+
+        .opt-btn:hover {
+            border-color: var(--accent-gold);
+            color: var(--accent-gold);
+            box-shadow: 0 4px 12px rgba(184, 134, 11, 0.15);
+            transform: translateY(-2px);
+        }
+
+        .opt-btn.selected {
+            background: black;
+            color: white;
+            border-color: black;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
+        }
+
+        .atelier-summary-box {
+            margin-top: 80px;
+            padding: 50px 40px;
+            background: white;
+            border: 2px solid #e5e5e5;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+            transition: var(--transition-luxe);
+        }
+
+        .atelier-summary-box:hover {
+            box-shadow: 0 12px 36px rgba(0, 0, 0, 0.12);
+            border-color: var(--accent-gold);
+        }
+
+        .atelier-summary-box p {
+            font-size: 1rem;
+            margin-bottom: 35px;
+            color: #666;
+            font-weight: 400;
+        }
+
+        .atelier-summary-box strong {
+            color: var(--accent-gold);
+            font-weight: 700;
+            letter-spacing: 0.05em;
+        }
+
+        .summary-actions {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            align-items: center;
+        }
+
+        .btn-dark {
+            padding: 16px 45px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            border: 2px solid black;
+            background: black;
+            color: white;
+            cursor: pointer;
+            transition: var(--transition-luxe);
+            border-radius: 4px;
+            text-transform: uppercase;
+        }
+
+        .btn-dark:hover {
+            background: white;
+            color: black;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+            transform: translateY(-2px);
+        }
+
+        .btn-text {
+            background: none;
+            border: none;
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            color: #999;
+            cursor: pointer;
+            border-bottom: 1px solid transparent;
+            transition: var(--transition-luxe);
+            text-transform: uppercase;
+        }
+
+        .btn-text:hover {
+            color: var(--accent-gold);
+            border-color: var(--accent-gold);
+        }
+
+        .category-divider {
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--accent-gold);
+            margin: 60px 0 35px 0;
+            padding-top: 35px;
+            border-top: 2px solid #e5e5e5;
+        }
+
+        @media (max-width: 1024px) {
+            .atelier-split {
+                grid-template-columns: 1fr;
+                gap: 70px;
+            }
+
+            .atelier-visual img {
+                height: 500px;
+            }
+
+            .atelier-controls h1 {
+                font-size: 2.8rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .atelier-main {
+                padding-top: 120px;
+            }
+
+            .atelier-split {
+                gap: 50px;
+            }
+
+            .atelier-visual img {
+                height: 350px;
+            }
+
+            .custom-options {
+                gap: 10px;
+            }
+
+            .opt-btn {
+                padding: 11px 20px;
+                font-size: 0.7rem;
+            }
+
+            .atelier-summary-box {
+                padding: 40px 30px;
+                margin-top: 60px;
+            }
+        }
+    </style>
+
+    <script src="js/main.js"></script>
+    <script src="js/atelier.js"></script>
+</body>
+
+</html>

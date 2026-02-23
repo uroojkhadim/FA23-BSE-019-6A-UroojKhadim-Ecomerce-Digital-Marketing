@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop All Collection | NOORA LUXE</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <h1>NOORA LUXE</h1>
+                </a>
+            </div>
+            <nav class="nav">
+                <ul class="nav-links">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="atelier.html">THE ATELIER</a></li>
+                    <li><a href="about.html">OUR STORY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="#" class="cart-icon">
+                    <i class="fas fa-shopping-bag"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="shop-main container">
+        <div class="shop-header fade-in">
+            <h1>THE COLLECTION</h1>
+            <p>Refined modest silhouettes handcrafted with the finest materials.</p>
+        </div>
+        <!-- Category Banners -->
+        <div class=\"category-banners fade-in\">
+            <div class=\"banner-item shoes-banner\">
+                <div class=\"banner-image\">
+                    <img src=\"https://picsum.photos/300/250?random=12\" alt=\"Shoes\">
+                </div>
+                <div class=\"banner-content\">
+                    <h3>ELEGANT SHOES</h3>
+                    <p>Handcrafted footwear for every occasion</p>
+                </div>
+            </div>
+            <div class=\"banner-item dresses-banner\">
+                <div class=\"banner-image\">
+                    <img src=\"https://picsum.photos/300/250?random=13\" alt=\"Dresses\">
+                </div>
+                <div class=\"banner-content\">
+                    <h3>PAKISTANI DRESSES</h3>
+                    <p>Traditional elegance meets modern style</p>
+                </div>
+            </div>
+            <div class=\"banner-item jewelry-banner\">
+                <div class=\"banner-image\">
+                    <img src=\"https://picsum.photos/300/250?random=14\" alt=\"Jewelry\">
+                </div>
+                <div class=\"banner-content\">
+                    <h3>LUXURY JEWELRY</h3>
+                    <p>Exquisite pieces to complete your look</p>
+                </div>
+            </div>
+        </div>
+        <div class="filters fade-in">
+            <button class="filter-btn active">ALL</button>
+            <button class="filter-btn">ABAYAS</button>
+            <button class="filter-btn">STOLERS</button>
+            <button class="filter-btn">SHOES</button>
+            <button class="filter-btn">DRESSES</button>
+            <button class="filter-btn">JEWELRY</button>
+            <button class="filter-btn">RAMADAN SPECIAL</button>
+        </div>
+
+        <div class="products-full-grid">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="https://picsum.photos/500/650?random=1" alt="Silk Abaya">
+                    <button class="quick-add" onclick="updateGlobalCart(1)">ADD TO BAG</button>
+                </div>
+                <div class="product-details">
+                    <p class="category">EVENING</p>
+                    <h3>Royal Velvet Embellished Abaya</h3>
+                    <p class="price">Rs. 24,500</p>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="https://picsum.photos/500/650?random=2" alt="Nida Abaya">
+                    <button class="quick-add" onclick="updateGlobalCart(1)">ADD TO BAG</button>
+                </div>
+                <div class="product-details">
+                    <p class="category">CASUAL</p>
+                    <h3>Midnight Nida Open Abaya</h3>
+                    <p class="price">Rs. 18,900</p>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="https://picsum.photos/500/650?random=3" alt="Stoler">
+                    <button class="quick-add" onclick="updateGlobalCart(1)">ADD TO BAG</button>
+                </div>
+                <div class="product-details">
+                    <p class="category">ACCESSORIES</p>
+                    <h3>Silk Chiffon Signature Stoler</h3>
+                    <p class="price">Rs. 3,200</p>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="https://picsum.photos/500/650?random=4" alt="Lawn Abaya">
+                    <button class="quick-add" onclick="updateGlobalCart(1)">ADD TO BAG</button>
+                </div>
+                <div class="product-details">
+                    <p class="category">DAILY</p>
+                    <h3>Classic Crepe Summer Set</h3>
+                    <p class="price">Rs. 14,500</p>
+                </div>
+            </div>
+
+            <!-- Product 5 - Formal Heels -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="https://picsum.photos/500/650?random=5" alt="Formal Heels">
+                    <button class="quick-add" onclick="updateGlobalCart(1)">ADD TO BAG</button>
+                </div>
+                <div class="product-details">
+                    <p class="category">SHOES</p>
+                    <h3>Elegant Pearl Heels</h3>
+                    <p class="price">Rs. 8,900</p>
+                </div>
+            </div>
+
+            <!-- Product 6 - Embroidered Mojaris -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="https://picsum.photos/500/650?random=6" alt="Embroidered Mojaris">
+                    <button class="quick-add" onclick="updateGlobalCart(1)">ADD TO BAG</button>
+                </div>
+                <div class="product-details">
+                    <p class="category">SHOES</p>
+                    <h3>Handcrafted Embroidered Mojaris</h3>
+                    <p class="price">Rs. 6,500</p>
+                </div>
+            </div>
+
+            <!-- Product 7 - Pakistani Stitched Kurti -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="https://picsum.photos/500/650?random=7" alt="Pakistani Kurti">
+                    <button class="quick-add" onclick="updateGlobalCart(1)">ADD TO BAG</button>
+                </div>
+                <div class="product-details">
+                    <p class="category">DRESSES</p>
+                    <h3>Luxury Embroidered Pakistani Kurti</h3>
+                    <p class="price">Rs. 12,900</p>
+                </div>
+            </div>
+
+            <!-- Product 8 - Chikankari Suit -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="https://picsum.photos/500/650?random=8" alt="Chikankari Suit">
+                    <button class="quick-add" onclick="updateGlobalCart(1)">ADD TO BAG</button>
+                </div>
+                <div class="product-details">
+                    <p class="category">DRESSES</p>
+                    <h3>Traditional Chikankari Suit</h3>
+                    <p class="price">Rs. 16,800</p>
+                </div>
+            </div>
+
+            <!-- Product 9 - Designer Necklace -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="https://picsum.photos/500/650?random=9" alt="Designer Necklace">
+                    <button class="quick-add" onclick="updateGlobalCart(1)">ADD TO BAG</button>
+                </div>
+                <div class="product-details">
+                    <p class="category">JEWELRY</p>
+                    <h3>Gold Filigree Statement Necklace</h3>
+                    <p class="price">Rs. 18,500</p>
+                </div>
+            </div>
+
+            <!-- Product 10 - Pearl Earrings -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="https://picsum.photos/500/650?random=10" alt="Pearl Earrings">
+                    <button class="quick-add" onclick="updateGlobalCart(1)">ADD TO BAG</button>
+                </div>
+                <div class="product-details">
+                    <p class="category">JEWELRY</p>
+                    <h3>Vintage Pearl Drop Earrings</h3>
+                    <p class="price">Rs. 7,200</p>
+                </div>
+            </div>
+
+            <!-- Product 11 - Designer Bracelet -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="https://picsum.photos/500/650?random=11" alt="Designer Bracelet">
+                    <button class="quick-add" onclick="updateGlobalCart(1)">ADD TO BAG</button>
+                </div>
+                <div class="product-details">
+                    <p class="category">JEWELRY</p>
+                    <h3>Luxury Diamond Scatter Bracelet</h3>
+                    <p class="price">Rs. 25,000</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h2>NOORA LUXE</h2>
+                <p>Pure elegance in every fold.</p>
+            </div>
+            <div class="footer-links">
+                <h4>PAGES</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop All</a></li>
+                    <li><a href="atelier.html">The Atelier</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>SUPPORT</h4>
+                <ul>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>CONNECT</h4>
+                <p><i class="fas fa-envelope"></i> contact@nooraluxe.com</p>
+                <p><i class="fas fa-phone"></i> +92 313 6576128</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 NOORA LUXE. ALL RIGHTS RESERVED.</p>
+        </div>
+    </footer>
+
+    <style>
+        .shop-main {
+            padding-top: 150px;
+            background: #fafafa;
+        }
+
+        .shop-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .shop-header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            letter-spacing: 0.1em;
+            font-weight: 700;
+        }
+
+        .shop-header p {
+            color: #666;
+            font-style: italic;
+            font-size: 1.1rem;
+        }
+
+        .category-banners {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 35px;
+            margin-bottom: 80px;
+            padding: 0 0 40px 0;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .banner-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            height: 280px;
+            cursor: pointer;
+            transition: var(--transition-luxe);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        .banner-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .banner-image {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        .banner-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition-luxe);
+        }
+
+        .banner-item:hover .banner-image img {
+            transform: scale(1.1);
+        }
+
+        .banner-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.3));
+            color: white;
+            padding: 35px 20px 25px;
+            text-align: center;
+        }
+
+        .banner-content h3 {
+            font-size: 1.3rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+
+        .banner-content p {
+            font-size: 0.95rem;
+            opacity: 0.95;
+            font-weight: 300;
+            letter-spacing: 0.05em;
+        }
+
+        .filters {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 60px;
+        }
+
+        .filter-btn {
+            background: none;
+            border: none;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            cursor: pointer;
+            color: #999;
+            transition: var(--transition-luxe);
+            padding: 10px 15px;
+            text-transform: uppercase;
+        }
+
+        .filter-btn.active,
+        .filter-btn:hover {
+            color: black;
+            border-bottom: 2px solid var(--accent-gold);
+        }
+
+        .products-full-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 45px;
+            padding: 40px 0;
+        }
+
+        .product-card {
+            position: relative;
+            transition: var(--transition-luxe);
+        }
+
+        .product-card:hover {
+            transform: translateY(-8px);
+        }
+
+        .product-img {
+            position: relative;
+            aspect-ratio: 3/4;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .product-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition-luxe);
+        }
+
+        .product-card:hover img {
+            transform: scale(1.08);
+        }
+
+        .quick-add {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background: black;
+            color: white;
+            border: none;
+            padding: 15px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            letter-spacing: 0.2em;
+            cursor: pointer;
+            transform: translateY(100%);
+            transition: var(--transition-luxe);
+        }
+
+        .product-card:hover .quick-add {
+            transform: translateY(0);
+        }
+
+        .category {
+            font-size: 0.65rem;
+            letter-spacing: 0.1em;
+            color: var(--accent-gold);
+            margin-bottom: 5px;
+        }
+
+        .product-details h3 {
+            font-size: 1rem;
+            font-family: var(--font-sans);
+            margin-bottom: 10px;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+        }
+
+        .price {
+            font-weight: 700;
+            font-size: 1rem;
+            color: var(--accent-gold);
+        }
+
+        @media (max-width: 992px) {
+            .products-full-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .category-banners {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .products-full-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .category-banners {
+                grid-template-columns: 1fr;
+            }
+
+            .banner-item {
+                height: 200px;
+            }
+        }
+    </style>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
