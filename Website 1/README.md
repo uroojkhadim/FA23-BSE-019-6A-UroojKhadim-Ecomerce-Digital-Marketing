@@ -13,13 +13,17 @@ Founded in 2026 in Karachi, Pakistan, NOORA LUXE combines traditional craftsmans
 ## 📸 Website Features & Screenshots
 
 ### 1. **Hero Section - Home Page**
-![Hero Section](https://picsum.photos/1200/600?random=100)
+![Hero Section](<img width="660" height="527" alt="Screenshot 2026-02-19 123503" src="https://github.com/user-attachments/assets/07d4e5b3-3959-4e44-91c1-435416c68128" />
+
 - **"MODESTY REDEFINED"** - Bold gold headline
 - Professional imagery with elegant styling
 - Clear call-to-action buttons (Shop Collection, Bespoke Services)
+- <img width="1348" height="640" alt="Screenshot 2026-02-23 171309" src="https://github.com/user-attachments/assets/801e61e1-c5cf-450a-a956-1d7c6d796ed5" />
+
 
 ### 2. **Featured Products - New Arrivals**
-![Featured Products](https://picsum.photos/1200/500?random=101)
+![Featured Products]<img width="997" height="565" alt="Screenshot 2026-02-19 123854" src="https://github.com/user-attachments/assets/f6402fb7-d5cd-4bc4-b4a6-3eb7c3ab1648" />
+
 - **5-Column Grid Layout** showcasing:
   - Royal Velvet Abaya - Rs. 24,500
   - Signature Chiffon Stoler - Rs. 3,200
@@ -28,14 +32,16 @@ Founded in 2026 in Karachi, Pakistan, NOORA LUXE combines traditional craftsmans
   - Gold Filigree Statement Necklace - Rs. 18,500
 
 ### 3. **Promotional Banners**
-![Promotional Banners](https://picsum.photos/1200/400?random=102)
+![Promotional Banners]<img width="968" height="586" alt="Screenshot 2026-02-19 123708" src="https://github.com/user-attachments/assets/e88d99d4-55de-4239-85f2-9504fe2f394f" />
+
 Three category banners:
 - **ELEGANT SHOES** - Handcrafted for every occasion
 - **PAKISTANI DRESSES** - Traditional elegance refined
 - **LUXURY JEWELRY** - Exquisite pieces to cherish
 
 ### 4. **The Atelier - Bespoke Customization**
-![Atelier Page](https://picsum.photos/1200/600?random=103)
+![Atelier Page]<img width="1345" height="638" alt="Screenshot 2026-02-23 171219" src="https://github.com/user-attachments/assets/3d00807e-b1bf-47c1-99f6-95148da498eb" />
+
 - **7-Step Customization System**:
   1. Fabric Selection (Korean Crepe, Premium Nida, Silk, Chiffon)
   2. Sleeve Style (Kimono Cut, Elastic Cuffs, Bell Sleeves, Sharp Tailored)
@@ -48,14 +54,17 @@ Three category banners:
 - Request Quote functionality
 
 ### 5. **About Us Page**
-![About Page](https://picsum.photos/1200/500?random=104)
+![About Page]<img width="971" height="581" alt="Screenshot 2026-02-19 123825" src="https://github.com/user-attachments/assets/c585e65a-5523-4f3f-af87-6d86f9009876" /><img width="969" height="576" alt="Screenshot 2026-02-19 124009" src="https://github.com/user-attachments/assets/805ac24d-fc2f-40ec-8de5-fb3eae8a278a" />
+
+
 - **Brand Story**: "Crafting Pure Elegance"
 - Founded on the philosophy of modest luxury
 - Based in Karachi, combining tradition with contemporary style
 - High-quality imagery of the atelier workshop
 
 ### 6. **Contact Page**
-![Contact Page](https://picsum.photos/1200/600?random=105)
+![Contact Page]<img width="993" height="582" alt="Screenshot 2026-02-19 124045" src="https://github.com/user-attachments/assets/3133fee3-171c-45fb-8fec-87622577492d" />
+
 - **Contact Information**:
   - Email: bespoke@nooraluxe.com / contact@nooraluxe.com
   - Phone: +92 313 6576128
