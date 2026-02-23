@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - HealthCare Clinic</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">HealthCare Clinic</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Doctor</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="appointments.html">Book Appointment</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <div class="emergency-contact">
+                <span class="phone-icon">📞</span>
+                <span class="emergency-text">Emergency: +1-800-MEDICAL</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch with HealthCare Clinic</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h2>Send us a Message</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="contactName">Full Name *</label>
+                            <input type="text" id="contactName" name="contactName" required placeholder="Your name">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contactEmail">Email Address *</label>
+                                <input type="email" id="contactEmail" name="contactEmail" required placeholder="your@email.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="contactPhone">Phone Number</label>
+                                <input type="tel" id="contactPhone" name="contactPhone" placeholder="+1-800-123-4567">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactSubject">Subject *</label>
+                            <input type="text" id="contactSubject" name="contactSubject" required placeholder="What is this about?">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactMessage">Message *</label>
+                            <textarea id="contactMessage" name="contactMessage" rows="6" required placeholder="Please share your message, questions, or concerns..."></textarea>
+                        </div>
+
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="contactConsent" name="contactConsent" required>
+                            <label for="contactConsent">I consent to be contacted regarding my message *</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                        <div id="contactFormMessage" class="form-message"></div>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-container">
+                    <div class="contact-info-card">
+                        <h3>📍 Clinic Address</h3>
+                        <p>123 Medical Street<br>Health City, HC 12345<br>United States</p>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <h3>📞 Phone</h3>
+                        <p><strong>Main:</strong> +1-800-MEDICAL<br>+1-555-123-4567</p>
+                        <p><strong>Appointments:</strong> +1-555-123-4568</p>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <h3>📧 Email</h3>
+                        <p><strong>General:</strong> info@healthcareclinic.com<br><strong>Appointments:</strong> appointments@healthcareclinic.com<br><strong>Support:</strong> support@healthcareclinic.com</p>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <h3>⏰ Office Hours</h3>
+                        <p><strong>Monday - Friday:</strong><br>9:00 AM - 6:00 PM</p>
+                        <p><strong>Saturday:</strong><br>10:00 AM - 4:00 PM</p>
+                        <p><strong>Sunday:</strong><br>Closed</p>
+                    </div>
+
+                    <div class="contact-info-card emergency">
+                        <h3>🚨 Emergency Services</h3>
+                        <p><strong>24/7 Available</strong></p>
+                        <p><strong>Emergency Hotline:</strong><br>+1-800-911-HELP</p>
+                        <p style="font-size: 12px; margin-top: 10px;">For life-threatening emergencies, call 911 or local emergency services immediately.</p>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <h3>🏥 Services Available</h3>
+                        <ul style="text-align: left; margin-left: 15px;">
+                            <li>General Consultation</li>
+                            <li>Diagnostic Services</li>
+                            <li>Preventive Care</li>
+                            <li>Chronic Disease Management</li>
+                            <li>Emergency Care</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Maps Section -->
+    <section class="maps-section">
+        <div class="container">
+            <h2>Our Location</h2>
+            <div class="maps-container">
+                <!-- Google Maps Embed - Replace with your actual clinic location -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.1234567890!2d-74.0128!3d40.7128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQyJzQ2LjEiTiA3NMKwMDAnNDYuMSJX!5e0!3m2!1sen!2sus!4v1234567890" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p style="text-align: center; margin-top: 15px; color: #666; font-size: 14px;">
+                    <strong>Note:</strong> Replace the embedded map with your actual clinic location. <a href="#">Get directions</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>❓ How do I book an appointment?</h3>
+                    <p>You can book an appointment through our online booking form on the "Book Appointment" page or call us at +1-800-MEDICAL.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>❓ What should I bring to my appointment?</h3>
+                    <p>Please bring a valid ID, insurance card, and a list of current medications. Medical records from previous visits are also helpful.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>❓ How long does a typical consultation take?</h3>
+                    <p>Most consultations take 30-45 minutes, depending on the complexity of your condition and the service required.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>❓ Do you accept insurance?</h3>
+                    <p>Yes, we accept most major insurance providers. Please contact us or check our FAQ for specific insurance details.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>❓ What if I need to cancel or reschedule?</h3>
+                    <p>You can cancel or reschedule up to 24 hours before your appointment. Please call us or use our online booking system.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>❓ Do you offer online consultations?</h3>
+                    <p>Yes, we offer telemedicine consultations for eligible patients. Contact us to inquire about virtual appointment options.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>HealthCare Clinic</h3>
+                    <p>Providing quality medical services since 2015</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>📞 +1-800-MEDICAL<br>📧 info@healthcareclinic.com<br>📍 123 Medical Street, Health City</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 HealthCare Clinic. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

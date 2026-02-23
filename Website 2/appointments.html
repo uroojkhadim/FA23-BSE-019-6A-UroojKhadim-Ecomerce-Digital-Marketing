@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Appointment - HealthCare Clinic</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">HealthCare Clinic</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Doctor</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="appointments.html" class="active">Book Appointment</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="emergency-contact">
+                <span class="phone-icon">📞</span>
+                <span class="emergency-text">Emergency: +1-800-MEDICAL</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Book Your Appointment</h1>
+            <p>Schedule a consultation with our healthcare professional</p>
+        </div>
+    </section>
+
+    <!-- Appointment Booking Section -->
+    <section class="appointment-section">
+        <div class="container">
+            <div class="appointment-grid">
+                <!-- Booking Form -->
+                <div class="booking-form-container">
+                    <h2>Online Booking Form</h2>
+                    <form id="appointmentForm" class="appointment-form">
+                        <div class="form-group">
+                            <label for="fullName">Full Name *</label>
+                            <input type="text" id="fullName" name="fullName" required placeholder="Enter your full name">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="your@email.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="+1-800-123-4567">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Select Service *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Choose a service...</option>
+                                <option value="general-checkup">General Checkup & Consultation</option>
+                                <option value="prescription">Prescription & Medication Management</option>
+                                <option value="diagnostic">Diagnostic Testing & Lab Services</option>
+                                <option value="chronic-disease">Chronic Disease Management</option>
+                                <option value="preventive">Preventive Health Screening</option>
+                                <option value="specialist">Specialist Referral Services</option>
+                            </select>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="appointmentDate">Preferred Date *</label>
+                                <input type="date" id="appointmentDate" name="appointmentDate" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="appointmentTime">Preferred Time *</label>
+                                <select id="appointmentTime" name="appointmentTime" required>
+                                    <option value="">Select time...</option>
+                                    <option value="09:00">09:00 AM</option>
+                                    <option value="09:30">09:30 AM</option>
+                                    <option value="10:00">10:00 AM</option>
+                                    <option value="10:30">10:30 AM</option>
+                                    <option value="11:00">11:00 AM</option>
+                                    <option value="11:30">11:30 AM</option>
+                                    <option value="02:00">02:00 PM</option>
+                                    <option value="02:30">02:30 PM</option>
+                                    <option value="03:00">03:00 PM</option>
+                                    <option value="03:30">03:30 PM</option>
+                                    <option value="04:00">04:00 PM</option>
+                                    <option value="04:30">04:30 PM</option>
+                                    <option value="05:00">05:00 PM</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="reason">Reason for Visit</label>
+                            <textarea id="reason" name="reason" rows="4" placeholder="Please describe your symptoms or reason for visit..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="medicalHistory">Medical History / Allergies</label>
+                            <textarea id="medicalHistory" name="medicalHistory" rows="3" placeholder="Any existing conditions, medications, or allergies..."></textarea>
+                        </div>
+
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="terms" name="terms" required>
+                            <label for="terms">I agree to the terms and conditions *</label>
+                        </div>
+
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="consent" name="consent" required>
+                            <label for="consent">I consent to receive appointment confirmations via email/phone *</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">Book Appointment</button>
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+
+                <!-- Info Sidebar -->
+                <div class="appointment-info">
+                    <div class="info-card">
+                        <h3>⏰ Available Hours</h3>
+                        <p><strong>Monday - Friday:</strong><br>9:00 AM - 6:00 PM</p>
+                        <p><strong>Saturday:</strong><br>10:00 AM - 4:00 PM</p>
+                        <p><strong>Sunday:</strong><br>Closed</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>📍 Location</h3>
+                        <p>123 Medical Street<br>Health City, HC 12345<br>USA</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>📞 Contact</h3>
+                        <p><strong>Phone:</strong><br>+1-800-MEDICAL</p>
+                        <p><strong>Email:</strong><br>appointments@healthcareclinic.com</p>
+                    </div>
+
+                    <div class="info-card emergency">
+                        <h3>🚨 Emergency</h3>
+                        <p><strong>24/7 Available:</strong><br>+1-800-911-HELP</p>
+                        <p style="font-size: 12px; margin-top: 10px; color: #666;">For medical emergencies, please call Emergency Services immediately</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>✓ What to Bring</h3>
+                        <ul style="text-align: left; margin-left: 15px;">
+                            <li>Valid ID</li>
+                            <li>Insurance card</li>
+                            <li>List of current medications</li>
+                            <li>Medical records (if applicable)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>HealthCare Clinic</h3>
+                    <p>Providing quality medical services since 2015</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>📞 +1-800-MEDICAL<br>📧 info@healthcareclinic.com<br>📍 123 Medical Street, Health City</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 HealthCare Clinic. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
